@@ -1,8 +1,8 @@
 {
-  "name": "GitHub",
+  "name": "GitHub Bookmark",
   "description": "Bookmark app for GitHub.",
   "default_locale" : "en",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "manifest_version": 2,
   "icons": {
     "128": "128.png"
