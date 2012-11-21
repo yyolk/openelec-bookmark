@@ -4,7 +4,7 @@
     "description": "App name."
   },
   "appDesc": {
-    "message": "Online project hosting using Git. Includes source-code browser, in-line editing, wikis, and ticketing. Free for public open-source code. Commercial closed source hosting is also available.", 
+    "message": "Online project hosting using Git.", 
     "description":"App description."
   }
 }
