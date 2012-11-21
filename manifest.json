@@ -1,16 +1,21 @@
 {
-  "name": "My Extension",
-  "version": "2.1",
-  "description": "Gets information from Google.",
-  "icons": { "128": "icon_128.png" },
-  "background": {
-    "persistent": false,
-    "scripts": ["bg.js"]
+  "name": "GitHub",
+  "description": "Online project hosting using Git. Includes source-code browser, in-line editing, wikis, and ticketing. Free for public open-source code. Commercial closed source hosting is also available.",
+  "default_locale" : "en",
+  "version": "0.1",
+  "manifest_version": 2,
+  "icons": {
+    "128": "128.png"
   },
-  "permissions": ["http://*.google.com/", "https://*.google.com/"],
-  "browser_action": {
-    "default_title": "",
-    "default_icon": "icon_19.png",
-    "default_popup": "popup.html"
+  "permissions": [],
+  "app": {
+    "launch": {
+      "container": "tab",
+      "web_url": "https://github.com"
+    },
+    "web_content": {
+      "enabled": true,
+      "origin": "https://github.com"
+    }    
   }
 }
