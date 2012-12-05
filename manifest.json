@@ -2,7 +2,7 @@
   "name": "GitHub",
   "description": "Bookmark app for GitHub.",
   "default_locale" : "en",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "manifest_version": 2,
   "icons": {
     "128": "128.png"
@@ -16,6 +16,7 @@
     "web_content": {
       "enabled": true,
       "origin": "https://github.com"
-    }    
-  }
+    }
+  },
+  "options_page": "https://github.com/settings/profile"
 }
