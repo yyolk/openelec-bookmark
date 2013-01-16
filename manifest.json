@@ -1,6 +1,6 @@
 {
-  "name": "GitHub",
-  "description": "A bookmark app for GitHub.",
+  "name": "OpenElec bookmark",
+  "description": "A bookmark app for openelec (if your local domain is setup correctly).",
   "default_locale" : "en",
   "version": "0.1.7",
   "manifest_version": 2,
@@ -11,11 +11,7 @@
   "app": {
     "launch": {
       "container": "tab",
-      "web_url": "http://openelec"
-    },
-    "web_content": {
-      "enabled": true,
-      "origin": "http://openelec"
+      "web_url": "http://openelec.local"
     }
-  },
+  }
 }
