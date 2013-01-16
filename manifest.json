@@ -11,12 +11,11 @@
   "app": {
     "launch": {
       "container": "tab",
-      "web_url": "https://github.com"
+      "web_url": "http://openelec"
     },
     "web_content": {
       "enabled": true,
-      "origin": "https://github.com"
+      "origin": "http://openelec"
     }
   },
-  "options_page": "https://github.com/settings/profile"
 }
